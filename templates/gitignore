@@ -1,0 +1,15 @@
+# OS / エディタ
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+
+# Claude Code の端末ごとの設定（共有しない）
+.claude/settings.local.json
+
+# 秘密情報は置かない・入れない
+.env
+*.key
+
+# Git に上げないファイルの置き場（この端末の中だけに置く）
+private/

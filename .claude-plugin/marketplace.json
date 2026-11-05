@@ -1,0 +1,18 @@
+{
+  "name": "sarukani",
+  "owner": {
+    "name": "sarukani",
+    "url": "https://github.com/sarukani123"
+  },
+  "metadata": {
+    "description": "さるかにの Claude Code プラグイン"
+  },
+  "plugins": [
+    {
+      "name": "butler",
+      "source": "./",
+      "description": "Claude Code を、経緯を覚えている専属バトラーにする（記録の拠点づくりと整理）",
+      "category": "productivity"
+    }
+  ]
+}

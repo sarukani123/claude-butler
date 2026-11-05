@@ -1,0 +1,2 @@
+# 改行コードを LF に統一（Windows / Mac / Linux / クラウド間での差分を防ぐ）
+* text=auto eol=lf

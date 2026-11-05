@@ -1,0 +1,14 @@
+{
+  "name": "butler",
+  "displayName": "Claude Butler（専属バトラー）",
+  "version": "0.1.0",
+  "description": "Claude Code を、経緯を覚えている専属バトラーにする。/butler:init で記録の拠点（CLAUDE.md・profile・journal など）を作り、セッションや端末が変わっても続きから話せるようにする。Turns Claude Code into a personal butler that remembers your history across sessions.",
+  "author": {
+    "name": "sarukani",
+    "url": "https://github.com/sarukani123"
+  },
+  "homepage": "https://zenn.dev/sarukani/articles/claude-code-butler-memory",
+  "repository": "https://github.com/sarukani123/claude-butler",
+  "license": "MIT",
+  "keywords": ["memory", "butler", "assistant", "journal", "claude-md", "japanese"]
+}
