@@ -13,7 +13,7 @@ description: バトラーの記録（profile・journal・knowledge・waiting-on-
 2. Git 管理でリモートがあれば `git pull` で最新にする。
 3. `tidy/learnings.md` があれば読む（過去の採否から分かった利用者の傾向。案の出し方に反映する）。
 4. `tidy/` に未処理の案（「状態：承認待ち」のもの）が残っていれば、新しい案は作らずに、その案を見てほしいと伝えて終える。案を溜めないため。
-5. 次のファイルを読む：`profile.md`、`waiting-on-you.md`、`open-items.md`、`projects.md`、`journal/` のすべて、`knowledge/` のすべて。
+5. 次のファイルを読む：`profile.md`、`waiting-on-you.md`、`open-items.md`、`projects.md`、`journal/` のすべて、`knowledge/` のすべて。ファイルは Read で 1 つずつ読む（シェルのコマンドでまとめて読むと、利用者に確認が出るため）。
 6. 下の「見る点」に沿って候補を洗い出し、効果の大きい順に **最大 10 件** に絞る。
 7. 候補が 1 件もなければ、何も書かずに「いまは整理の必要がありません」と伝えて終える。
 8. `tidy/proposal-YYYY-MM-DD.md`（実行日）に案を書く。同じ日の案が既にあれば `-2` などを付ける。
