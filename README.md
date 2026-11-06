@@ -21,6 +21,7 @@ mkdir my-butler && cd my-butler && claude
 - Claude Code のセッション内からは `/plugin install butler --marketplace sarukani123/claude-butler` でも入れられます。
 - 上のコマンドが使えない版では、`claude plugin marketplace add sarukani123/claude-butler` のあとに `claude plugin install butler@sarukani` を実行してください。
 - `/butler:init` は 3 つだけ質問します（話す言語・主な用途・Git で同期するか）。終わったら「はじめまして。バトラーとしてよろしく」など、普段どおりに話しかけてください。
+- ファイルの書き込みや `git init` の前に、Claude Code が許可を求めることがあります。`git init` を許可しなかった場合も記録のファイルはできています。あとで手で `git init` するか、バトラーに「git init して」と頼んでください（`waiting-on-you.md` に残るので忘れません）。
 
 ## できること
 - **経緯を引き継ぐ**：Claude がセッションを始めるときに記録を読み、終わるときに書き足します。あなたが記録を頼む必要はありません。
